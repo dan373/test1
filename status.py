@@ -9,7 +9,7 @@ def check_service_status(service_name):
 
         status = os.system('service '+service_name+ ' status > /dev/null')
         return status
-file = open('/home/centos/stav.txt','a')
+file = open('stav.txt','a')
 
 
 def main():
@@ -32,7 +32,7 @@ def check_service_status(service_name1):
         status = os.system('service '+service_name1+ ' status > /dev/null')
         return status
 
-file = open('/home/centos/stav.txt','a')
+file = open('stav.txt','a')
 
 def main():
 
