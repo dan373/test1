@@ -1,0 +1,2 @@
+0 * * * *  PATH=/bin:/usr/bin:/sbin:/usr/sbin /usr/bin/python /home/centos/status.py
+
